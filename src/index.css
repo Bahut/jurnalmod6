@@ -1,58 +1,42 @@
-/* src/index.css */
-
 body {
-  font-family: system-ui, sans-serif;
   margin: 0;
-  padding: 24px;
-  background: #f7f7f5;
-  color: #1f2933;
-}
-
-.judul {
-  margin: 0 0 4px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
 .panel {
-  background: #ffffff;
-  border: 1px solid #d9d9d4;
-  border-radius: 6px;
-  padding: 16px;
-  margin: 16px 0;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.daftar {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 12px;
+.panel h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #f30196;
 }
 
-.kartu {
-  border: 1px solid #d9d9d4;
-  border-radius: 6px;
-  padding: 12px;
-}
-
-.kartu h3 {
-  margin: 0 0 4px;
-}
-
-.badge {
-  display: inline-block;
-  background: #f4b942;
-  padding: 2px 8px;
-  border-radius: 3px;
-  font-size: 12px;
-}
-
-.kontrol {
+.daftar-menu {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 8px 0;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.ringkasan {
-  border-top: 2px solid #1f2933;
-  margin-top: 16px;
-  padding-top: 12px;
+.kartu-menu {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.kartu-menu h3 {
+  margin-top: 0;
+  color: #ff00aa;
+}
+
+.kartu-menu p {
+  margin-bottom: 8px;
 }
